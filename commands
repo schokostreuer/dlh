@@ -1,0 +1,5 @@
+#list avaiable dvd tracks
+lsdvd
+
+#rip dvd track
+mplayer dvd://<tracknumber> -dumpstream -dumpfile <filename>
